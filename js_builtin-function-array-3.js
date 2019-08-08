@@ -1,6 +1,6 @@
 var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
 
-var nama = input[01];
+var nama = input[1];
 
 function dataHandling2(arr) {
     arr.splice(1, 2, "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung");
@@ -71,7 +71,7 @@ function dataHandling2(arr) {
     var irisan = arr.slice(1,2);
     var join_nama = (irisan.join(' '));
     if(join_nama.length > 15) {
-        console.log(join_nama.substring(0, 15));
+        console.log(join_nama.substring(0,15));
     }
     console.log();
 }

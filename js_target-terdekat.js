@@ -27,8 +27,9 @@ function targetTerdekat(arr) {
     if (arr_x.length > 0) {
       return min;
     }
-
-    return 0;
+    else {
+      return 0;
+    }
 }
   
   //TEST CASES
